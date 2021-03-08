@@ -10,7 +10,7 @@ const Home = () => {
     <Fragment>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>數位科技設計學系-國立臺北教育大學</title>
+        <title>數位科技設計學系-國立臺北教育大</title>
         <meta name="description" content="數位科技設計學系的首頁" />
       </Helmet>
       <div className={styles.container}>
