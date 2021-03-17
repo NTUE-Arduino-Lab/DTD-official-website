@@ -1,0 +1,51 @@
+.container {
+  width: 100vw;
+}
+
+.banner {
+  width: 100vw;
+  height: 400px;
+  background-image: url(../../assets/images/banners/banner_4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.board {
+  width: 100vw;
+  padding: 32px 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.board_title {
+  width: 100vw;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding: 32px 0;
+}
+
+.announcement {
+  position: relative;
+  border-top: 1px rgb(221, 221, 221) solid;
+  padding: 32px;
+  width: 80vw;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.announcement_box {
+  padding: 10px 0;
+}
+
+.announcement_title {
+  padding: 6px 0;
+  font-size: 20px;
+  color: rgb(68, 68, 68);
+}
+
+.announcement_content {
+  padding: 6px 0;
+  font-size: 14px;
+  color: rgb(98, 98, 98);
+}

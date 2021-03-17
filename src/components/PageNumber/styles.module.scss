@@ -1,0 +1,40 @@
+.container {
+  position: relative;
+  width: 100vw;
+  height: 124px;
+  background-color: rgb(255, 255, 255);
+}
+
+.pageNumber_box {
+  position: absolute;
+  left: 50%;
+  top: 28px;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.pageNumber_number {
+  font-size: 14px;
+  padding: 0 12px;
+  color: rgb(98, 98, 98);
+}
+
+.pageNumber_leftArrow {
+  background-image: url(../../assets/images/arrows/left.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 12px;
+  padding: 0 12px;
+  margin-top: 5px;
+}
+
+.pageNumber_rightArrow {
+  background-image: url(../../assets/images/arrows/right.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 12px;
+  padding: 0 12px;
+  margin-top: 5px;
+}
